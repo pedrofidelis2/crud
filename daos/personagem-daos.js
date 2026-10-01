@@ -14,12 +14,12 @@ class PersonagemDao {
         return await db.Personagem.findByPk(id);
     }
 
-    update = async (id, objJSON) => {
-        return await db.Personagem.update(objJSON, { where: { id } });
+    update = async (_id, objJSON) => {
+        return await db.Personagem.update(objJSON, { where: { id: _id } });
     }
 
-    delete = async (id) => {
-        return await db.Personagem.destroy({ where: { id } });
+    delete = async (_id) => {
+        return await db.Personagem.destroy({ where: { id: _id } });
     }
 }
 
