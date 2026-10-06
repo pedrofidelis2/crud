@@ -1,6 +1,6 @@
 # 🚀 Exemplo API RESTful MVC - Node.js & Express
 
-API RESTful desenvolvida em **Node.js** com **Express** e **Sequelize ORM**, aplicando a arquitetura **MVC (Model-View-Controller)** com padrão **DAO (Data Access Object)**. A aplicação conta com controle de acesso via autenticação **JWT**, criptografia de senhas com **Bcrypt**, suporte a **CORS** e documentação interativa via **Swagger**.
+API RESTful desenvolvida em **Node.js** com **Express** e **Sequelize ORM**, aplicando a arquitetura **MVC (Model-View-Controller)** com padrão **DAO (Data Access Object)**. A aplicação conta com controle de acesso via autenticação **JWT**, criptografia de senhas com **Bcrypt**, suporte a **CORS**.
 
 ---
 
