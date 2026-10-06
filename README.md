@@ -13,7 +13,6 @@ API RESTful desenvolvida em **Node.js** com **Express** e **Sequelize ORM**, apl
 - **Bcrypt** — Hashing seguro de senhas
 - **CORS** — Middleware para habilitação de Cross-Origin Resource Sharing
 - **Body-Parser** — Parsing de requisições HTTP em JSON
-- **Swagger UI Express** — Documentação interativa de rotas
 
 ---
 
