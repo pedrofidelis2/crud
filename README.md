@@ -72,6 +72,7 @@ PUT /personagens/:id — Atualiza os dados de um personagem.
 DELETE /personagens/:id — Remove um personagem.
 
 📑 Documentação Swagger
+
 Com o servidor rodando, você pode acessar a documentação interativa e testar as rotas diretamente pelo navegador.
 
 <img width="1645" height="836" alt="image" src="https://github.com/user-attachments/assets/b5a3ad53-5ba8-4635-8736-568a3d685719" />
