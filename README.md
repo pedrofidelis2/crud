@@ -13,6 +13,7 @@ API RESTful desenvolvida em **Node.js** com **Express** e **Sequelize ORM**, apl
 - **Bcrypt** — Hashing seguro de senhas
 - **CORS** — Middleware para habilitação de Cross-Origin Resource Sharing
 - **Body-Parser** — Parsing de requisições HTTP em JSON
+- **Swagger UI Express** — Documentação interativa de rotas
 
 ---
 
@@ -46,7 +47,10 @@ exemploMVC/
 ├── seeders/            # Dados iniciais para povoamento do banco de dados
 ├── .gitignore          # Arquivos ignorados pelo Git (ex: node_modules)
 ├── index.js            # Ponto de entrada (Entry point) da aplicação Express
+├── docgen.js           # Doc automática com swaggerAutogen 
 ├── package.json        # Dependências e scripts do projeto
+└── swagger.json        # Configuração da documentação da API
+└── swagger_output.json # Doc automática
 ```
 
 📌 Principais Endpoints
@@ -66,3 +70,9 @@ POST /personagens — Cadastra um novo personagem.
 PUT /personagens/:id — Atualiza os dados de um personagem.
 
 DELETE /personagens/:id — Remove um personagem.
+
+📑 Documentação Swagger
+Com o servidor rodando, você pode acessar a documentação interativa e testar as rotas diretamente pelo navegador.
+
+<img width="1645" height="836" alt="image" src="https://github.com/user-attachments/assets/b5a3ad53-5ba8-4635-8736-568a3d685719" />
+
