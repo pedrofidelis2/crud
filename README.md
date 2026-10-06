@@ -75,5 +75,5 @@ DELETE /personagens/:id — Remove um personagem.
 
 Com o servidor rodando, você pode acessar a documentação interativa e testar as rotas diretamente pelo navegador.
 
-<img width="1645" height="836" alt="image" src="https://github.com/user-attachments/assets/b5a3ad53-5ba8-4635-8736-568a3d685719" />
+<img width="1547" height="840" alt="image" src="https://github.com/user-attachments/assets/8129bc60-96ea-4f4c-9f70-1d1fa273fd4d" />
 
