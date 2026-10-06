@@ -47,7 +47,6 @@ exemploMVC/
 ├── .gitignore          # Arquivos ignorados pelo Git (ex: node_modules)
 ├── index.js            # Ponto de entrada (Entry point) da aplicação Express
 ├── package.json        # Dependências e scripts do projeto
-└── swagger.json        # Configuração da documentação da API
 ```
 
 📌 Principais Endpoints
