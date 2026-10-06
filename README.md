@@ -48,3 +48,22 @@ exemploMVC/
 ├── index.js            # Ponto de entrada (Entry point) da aplicação Express
 ├── package.json        # Dependências e scripts do projeto
 └── swagger.json        # Configuração da documentação da API
+```
+
+📌 Principais Endpoints
+🔐 Autenticação (/auth)
+
+POST /auth/login — Autentica o usuário e retorna o Token JWT.
+
+POST /auth/addUser — Cadastra um novo usuário com senha criptografada (Requer JWT).
+
+🎮 Personagens (/personagens)
+GET /personagens — Lista os personagens cadastrados.
+
+GET /personagens/:id — Busca um personagem pelo ID.
+
+POST /personagens — Cadastra um novo personagem.
+
+PUT /personagens/:id — Atualiza os dados de um personagem.
+
+DELETE /personagens/:id — Remove um personagem.
