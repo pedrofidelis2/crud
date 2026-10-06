@@ -17,6 +17,7 @@ API RESTful desenvolvida em **Node.js** com **Express** e **Sequelize ORM**, apl
 ---
 
 🔒 Práticas de Segurança Implementadas
+
 Hashing de Senhas (Bcrypt): Nenhuma senha é salva em texto puro no banco de dados. Durante o cadastro, a senha é criptografada e, no login, comparada via bcrypt.compare.
 
 Autenticação Stateless (JWT): Geração de tokens de acesso na rota de login. Rotas protegidas utilizam middleware de verificação do JWT no cabeçalho HTTP (Authorization).
